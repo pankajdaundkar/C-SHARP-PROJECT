@@ -19,7 +19,7 @@ namespace employee_sallary_2
             Emp_ID = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("entre emp name");
-            Emp_name = (Console.ReadLine());
+           Emp_name = Console.ReadLine();
 
             Console.WriteLine(" entre basic sallary of emp");
             Bs = Convert.ToInt32(Console.ReadLine());
@@ -38,6 +38,7 @@ namespace employee_sallary_2
 
             Console.WriteLine("gross sallary with allownce = {gross}");
             gross = (Bs + Hra + Ta + Da) - (Pf + pt);
+            Console.WriteLine("add file");
 
 
         }
